@@ -1,0 +1,25 @@
+
+
+.icon-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.icon-item img{
+    width: 60px;
+    height: 60px;
+    -webkit-user-drag: none;
+}
+
+.icon-item p{
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
